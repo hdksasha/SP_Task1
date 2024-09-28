@@ -4,9 +4,15 @@
 class Calculator
 {
     public:
-        int Add (double, double);
-        int Sub (double, double);
-        int Mul (double, double);
+	double Add(double a, double b){
+		return a + b;
+	}
+	double Sub(double a, double b){
+		return a - b;
+	}
+	double Mul(double a, double b){
+		return a * b;
+	}
 };
 
 #endif//CALCULATOR_H
